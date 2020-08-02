@@ -6,20 +6,6 @@
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-
-.navbar {
-    background-color: transparent;
-}
-
-.top-nav-collapse {
-    background-color: #1613db !important;
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #1613db;
-    }
-}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -156,7 +142,6 @@ a.article:hover {
     CONTENT STYLE
 ----------------------------------------------------- */
 
-
 #content {
     width: 100%;
     padding: 20px;
@@ -251,7 +236,7 @@ figure.photo a {
 }
 
 figure.photo.blue {
-    background: #1504fac7;
+    background: #123851;
 }
 
 figure.photo.blue h2 {
