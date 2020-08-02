@@ -145,11 +145,10 @@ a.article:hover {
 #content {
     width: 100%;
     padding: 20px;
+    height: 5px;
     min-height: 100vh;
     transition: all 0.3s;
-    position: absolute;
     top: 0;
-    right: 0;
 }
 
 
@@ -157,7 +156,7 @@ a.article:hover {
 FIN ESTILOS
 */
 
-Meet Iniciar una reunión Unirte a una reunión Hangouts 1 de 627 Boys y estilos Recibidos x Daniel Diaz Hernandez <DDH0@outlook.com>Adjuntos13:56 (hace 11 minutos) para mí 2 archivos adjuntos @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 figure.photo {
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
