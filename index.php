@@ -136,7 +136,7 @@
                 <!--Slides-->
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-
+                    <!--Mask color-->
                     <div class="view">
                             <img class="d-block w-100" src="/img/prueba3.png" alt="First slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
@@ -145,7 +145,9 @@
                         </div>
                     </div>
 
-                        <div class="view">
+                    <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
                             <img class="d-block w-100" src="/img/prueba3.png" alt="First slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
                             <p class="white-text">strong overlay</p>
