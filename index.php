@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design for Bootstrap</title>
+    <title>SPEM</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
     <!-- Font Awesome -->
@@ -130,12 +130,21 @@
                     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-2" data-slide-to="1"></li>
                     <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="3"></li>
                 </ol>
                 <!--/.Indicators-->
                 <!--Slides-->
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
 
+                    <div class="view">
+                            <img class="d-block w-100" src="/SPEMMDB/img/prueba3.png" alt="First slide">
+                            <div class="mask flex-center waves-effect waves-light rgba-black-slight">
+                                <p class="white-text">strong overlay</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                         <div class="view">
                             <img class="d-block w-100" src="/SPEMMDB/img/prueba3.png" alt="First slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
@@ -199,7 +208,7 @@
                                 <figcaption>
                                     <h2> <span>Empresas</span></h2>
                                 </figcaption>
-                                <a href="#"></a>
+                                <a href="Empresas.html"></a>
                             </figure>
                         </div>
 
@@ -208,7 +217,7 @@
                                 <figcaption>
                                     <h2><span>Gobierno</span></h2>
                                 </figcaption>
-                                <a href="#"></a>
+                                <a href="Gobierno.html"></a>
                             </figure>
                         </div>
 
@@ -217,7 +226,7 @@
                                 <figcaption>
                                     <h2><span>Mediación</span></h2>
                                 </figcaption>
-                                <a href="#"></a>
+                                <a href="Mediacion.html"></a>
                             </figure>
                         </div>
                     </div>
