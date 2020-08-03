@@ -46,7 +46,7 @@
                         overflow-y: scroll;
     
                   overflow-x: hidden;
-                        background: #000;
+                        background: #fff;
       
                 -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
@@ -103,7 +103,7 @@
     
     .sidebar-nav li a:hover {
       text-decoration: none;
-      color: #fff;
+      color: rgb(14, 34, 211);
       background: rgba(255, 255, 255, 0.2);
     }
     
@@ -125,7 +125,7 @@
     
     
     .sidebar-nav>.sidebar-brand a:hover {
-      color: #fff;
+      color: rgb(14, 34, 211);
       background: none;
     }
     
