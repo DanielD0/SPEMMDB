@@ -7,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>SPEM</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/qq.ico" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Google Fonts Roboto -->
@@ -140,15 +140,15 @@
                     <div class="view">
                             <img class="d-block w-100" src="/SPEMMDB/img/prueba3.png" alt="First slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
-                                <p class="white-text">strong overlay</p>
+                            <img src="img/wwww.png">    
                             </div>
                         </div>
                     </div>
-                    
+
                         <div class="view">
-                            <img class="d-block w-100" src="/SPEMMDB/img/prueba3.png" alt="First slide">
+                            <img class="d-block w-100" src="/img/prueba3.png" alt="First slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
-                                <p class="white-text">strong overlay</p>
+                            <p class="white-text">strong overlay</p>
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                     <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" src="/SPEMMDB/img/retosdefin.png" alt="Second slide">
+                            <img class="d-block w-100" src="/img/retosdefin.png" alt="Second slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
                                 <p class="white-text">strong overlay</p>
                             </div>
@@ -168,7 +168,7 @@
 
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" src="/SPEMMDB/img/inovacion.png" alt="Third slide">
+                            <img class="d-block w-100" src="/img/inovacion.png" alt="Third slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
                                 <p class="white-text">strong overlay</p>
                             </div>
