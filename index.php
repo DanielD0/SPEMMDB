@@ -137,7 +137,7 @@
                     <div class="carousel-item active">
 
                         <div class="view">
-                            <img class="d-block w-100" src="/img/prueba3.png" alt="First slide">
+                            <img class="d-block w-100" src="/SPEMMDB/img/prueba3.png" alt="First slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
                                 <p class="white-text">strong overlay</p>
                             </div>
@@ -148,7 +148,7 @@
                     <div class="carousel-item">
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" src="/img/retosdefin.png" alt="Second slide">
+                            <img class="d-block w-100" src="/SPEMMDB/img/retosdefin.png" alt="Second slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
                                 <p class="white-text">strong overlay</p>
                             </div>
@@ -159,7 +159,7 @@
 
                         <!--Mask color-->
                         <div class="view">
-                            <img class="d-block w-100" src="/img/inovacion.png" alt="Third slide">
+                            <img class="d-block w-100" src="/SPEMMDB/img/inovacion.png" alt="Third slide">
                             <div class="mask flex-center waves-effect waves-light rgba-black-slight">
                                 <p class="white-text">strong overlay</p>
                             </div>
@@ -372,35 +372,40 @@
           <span aria-hidden="true">&times;</span>
         </button>
                                 </div>
-                                <div class="modal-body mx-3">
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-user prefix grey-text"></i>
-                                        <input type="text" id="nombre" class="form-control validate">
-                                        <label data-error="wrong" data-success="right" for="form34">Nombre</label>
-                                    </div>
+                                <form method="POST">
+                                    <div class="modal-body mx-3">
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-user prefix grey-text"></i>
+                                            <input type="text" id="nombre" name="nombre" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="form34">Nombre</label>
+                                        </div>
 
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-envelope prefix grey-text"></i>
-                                        <input type="email" id="email" class="form-control validate">
-                                        <label data-error="wrong" data-success="right" for="form29">Email</label>
-                                    </div>
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-envelope prefix grey-text"></i>
+                                            <input type="email" id="email" name="email" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="form29">Email</label>
+                                        </div>
 
-                                    <div class="md-form mb-5">
-                                        <i class="fas fa-tag prefix grey-text"></i>
-                                        <input type="text" id="asunto" class="form-control validate">
-                                        <label data-error="wrong" data-success="right" for="form32">Asunto</label>
-                                    </div>
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-tag prefix grey-text"></i>
+                                            <input type="text" id="asunto" name="asunto" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="form32">Asunto</label>
+                                        </div>
 
-                                    <div class="md-form">
-                                        <i class="fas fa-pencil prefix grey-text"></i>
-                                        <textarea type="text" id="mensaje" class="md-textarea form-control" rows="4"></textarea>
-                                        <label data-error="wrong" data-success="right" for="form8">Tu Mensaje</label>
-                                    </div>
+                                        <div class="md-form">
+                                            <i class="fas fa-pencil prefix grey-text"></i>
+                                            <textarea type="text" id="mensaje" name="mensaje" class="md-textarea form-control" rows="4"></textarea>
+                                            <label data-error="wrong" data-success="right" for="form8">Tu Mensaje</label>
+                                        </div>
 
-                                </div>
-                                <div class="modal-footer d-flex justify-content-center">
-                                    <button class="btn blue-gradient" id="submit">Enviar <i class="fas fa-paper-plane-o ml-1"></i></button>
-                                </div>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button class="btn blue-gradient" id="submit">Enviar <i class="fas fa-paper-plane-o ml-1"></i></button>
+                                    </div>
+                                </form>
+                                <?php
+                                include("correo.php");
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -489,7 +494,7 @@
     </script>
     <script>
         $('.carousel').carousel({
-        interval: 2000
+            interval: 2000
         })
     </script>
 </body>
